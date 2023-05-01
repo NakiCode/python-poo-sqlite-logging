@@ -1,0 +1,20 @@
+30-Apr-23 14:46:09 - ERROR - Niveau : SQL REQUEST | Type : near ")": syntax error
+Traceback (most recent call last):
+  File "G:\MES TUTORIELS\SQLite3 & Python POO\main.py", line 29, in sql_request
+    query.executescript(sql)
+sqlite3.OperationalError: near ")": syntax error
+30-Apr-23 14:47:37 - ERROR - Niveau : SQL REQUEST | Type : near ")": syntax error
+Traceback (most recent call last):
+  File "G:\MES TUTORIELS\SQLite3 & Python POO\main.py", line 29, in sql_request
+    query.executescript(sql)
+sqlite3.OperationalError: near ")": syntax error
+30-Apr-23 16:01:54 - ERROR - Niveau : UPDATE | Type : near "UDPATE": syntax error
+Traceback (most recent call last):
+  File "G:\MES TUTORIELS\SQLite3 & Python POO\main.py", line 77, in update
+    query.execute(""" UDPATE Todo SET desc=? WHERE id=? """, donnees)
+sqlite3.OperationalError: near "UDPATE": syntax error
+30-Apr-23 16:03:50 - ERROR - Niveau : UPDATE | Type : near "UDPATE": syntax error
+Traceback (most recent call last):
+  File "G:\MES TUTORIELS\SQLite3 & Python POO\main.py", line 77, in update
+    query.execute("""UDPATE Todo SET desc=? WHERE id=? """, donnees)
+sqlite3.OperationalError: near "UDPATE": syntax error
